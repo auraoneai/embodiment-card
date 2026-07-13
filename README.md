@@ -15,7 +15,7 @@ dataset and vision-language-action release review.
 ## Install
 
 ```bash
-python -m pip install "embodiment-card==0.1.1"
+python -m pip install "embodiment-card==0.1.2"
 ```
 
 ## Verified Quickstart
@@ -78,8 +78,8 @@ model README.
 
 Verified on 2026-07-13:
 
-- PyPI: [`embodiment-card==0.1.1`](https://pypi.org/project/embodiment-card/0.1.1/)
-- GitHub release: [`v0.1.1`](https://github.com/auraoneai/embodiment-card/releases/tag/v0.1.1)
+- PyPI: [`embodiment-card==0.1.2`](https://pypi.org/project/embodiment-card/0.1.2/)
+- GitHub release: [`v0.1.2`](https://github.com/auraoneai/embodiment-card/releases/tag/v0.1.2)
 - Bundled cards describe mock tutorial datasets and do not establish hardware
   validation or safety assurance.
 
