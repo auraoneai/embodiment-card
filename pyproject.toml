@@ -4,13 +4,44 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "embodiment-card"
-version = "0.1.0"
-description = "Structured embodiment cards for robot datasets and VLA releases."
+version = "0.1.1"
+description = "Validate and render robot embodiment metadata for dataset and VLA release review."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
 authors = [{ name = "AuraOne", email = "opensource@auraone.ai" }]
-keywords = ["robotics", "datasets", "vla", "metadata", "huggingface"]
+keywords = [
+  "dataset-cards",
+  "embodiment",
+  "huggingface",
+  "metadata",
+  "robotics",
+  "vla",
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Documentation",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Robotics",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://auraone.ai/open"
+Source = "https://github.com/auraoneai/embodiment-card"
+Issues = "https://github.com/auraoneai/embodiment-card/issues"
+Documentation = "https://github.com/auraoneai/embodiment-card#readme"
+Specification = "https://github.com/auraoneai/embodiment-card/blob/main/spec/embodiment-card-schema-v1.json"
+Changelog = "https://github.com/auraoneai/embodiment-card/blob/main/CHANGELOG.md"
+Security = "https://github.com/auraoneai/embodiment-card/security/policy"
 
 [project.scripts]
 embodiment-card = "embodiment_card.cli:main"
@@ -20,4 +51,3 @@ where = ["src"]
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
-
