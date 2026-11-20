@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "embodiment-card"
 version = "0.1.2"
-description = "Validate and render robot embodiment metadata for dataset and VLA release review."
+description = "Robot embodiment card validator: validate and render robot embodiment metadata for dataset and VLA release review."
 readme = "README.md"
 requires-python = ">=3.10"
 license = "MIT"
@@ -17,6 +17,7 @@ keywords = [
   "metadata",
   "robotics",
   "vla",
+  "robot-embodiment-card",
 ]
 classifiers = [
   "Development Status :: 3 - Alpha",
@@ -34,7 +35,7 @@ classifiers = [
 dependencies = []
 
 [project.urls]
-Homepage = "https://auraone.ai/open"
+Homepage = "https://auraone.ai/open/robotics-studio"
 Source = "https://github.com/auraoneai/embodiment-card"
 Issues = "https://github.com/auraoneai/embodiment-card/issues"
 Documentation = "https://github.com/auraoneai/embodiment-card#readme"
