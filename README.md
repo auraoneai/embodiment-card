@@ -1,5 +1,14 @@
 # embodiment-card
 
+**Robot embodiment card validator and renderer.** Part of [Robotics Studio](https://auraone.ai/open/robotics-studio).
+
+```bash
+python -m pip install "embodiment-card==0.1.2"
+embodiment-card validate examples/mock_so101_card.json
+```
+
+From a source checkout this prints `valid`.
+
 `embodiment-card` validates and renders structured robot embodiment metadata for
 dataset and vision-language-action release review.
 
@@ -88,3 +97,12 @@ Verified on 2026-07-13:
 Fill a card from one real dataset's reviewed metadata, have the hardware owner
 verify frames and control rate, then publish the rendered disclosure beside the
 dataset.
+
+Part of the AuraOne robotics dataset QA workflow:
+[lerobot-quality-gates](https://auraone.ai/open/lerobot-quality-gates) →
+[Robotics Studio](https://auraone.ai/open/robotics-studio).
+
+---
+
+Need reviewed demonstration data or dataset quality operations at scale?
+[Talk to AuraOne](https://auraone.ai/contact?from=open:embodiment-card)
